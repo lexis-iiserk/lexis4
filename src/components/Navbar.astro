@@ -1,4 +1,6 @@
 ---
+import "../styles/global.css";
+
 interface Props {
     active: string;
 }
@@ -39,7 +41,7 @@ nav {
 img {
     position: absolute;
     top: 0;
-    left: 1rem;
+    left: 2rem;
     height: 5rem;
     z-index: 10;
 }
@@ -62,14 +64,14 @@ li > a {
 }
 
 li > a:hover {
-    color: yellow;
+    color: var(--accent-color-3);
 }
 
 .active {
     color: hsl(34, 100%, 80%) !important;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 850px) {
     button {
         display: block;
         position: fixed;

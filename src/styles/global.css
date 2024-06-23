@@ -3,6 +3,9 @@
 :root {
     --bg: black;
     --text-color: white;
+    --accent-color: hsl(34, 100%, 80%);
+    --accent-color-2: hsl(0, 0%, 44%);
+    --accent-color-3: hsl(262, 29%, 83%);
 }
 
 * {
@@ -11,9 +14,12 @@
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
 }
-
+html {
+    height: 100vh;
+}
 body {
     background-color: var(--bg);
+    height: 100%;
 }
 
 a {
@@ -22,11 +28,16 @@ a {
 }
 
 main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--text-color);
+    width: 100vw;
+    height: 85%;
 }
 
-@media (max-width: 610px) {
+@media (max-width: 850) {
     main {
-        margin-top: 5rem;
+        padding-top: 5rem;
     }
 }
