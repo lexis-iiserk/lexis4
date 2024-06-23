@@ -1,0 +1,27 @@
+---
+import Navbar from '../components/Navbar.astro';
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+	crossorigin="anonymous">
+	<title>{ title } - Lexis</title>
+</head>
+<body>
+	<Navbar active= { title }></Navbar>
+	<main>
+		<slot></slot>
+	</main>
+</body>
+</html>
