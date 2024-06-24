@@ -17,9 +17,9 @@ const events = await Astro.glob("../content/events/*.md");
             <h2> { event.frontmatter.time} on { event.frontmatter.date} @ { event.frontmatter.venue } </h2>
             <p set:html={ event.compiledContent() } />
             <span class="footer">
-                <span><h4> Registration Link: &nbsp;</h4> <a href={ event.frontmatter.link } target="_blank">{ event.frontmatter.link }</a></span>
-                <span><h4> Organisers: &nbsp;</h4> { event.frontmatter.organisers }</span>
-                <span><h4> Contact: &nbsp;</h4> { event.frontmatter.contacts }</span>
+                { event.frontmatter.link ? <span><h4> Registration Link: &nbsp;</h4> <a href={ event.frontmatter.link } target="_blank">{ event.frontmatter.link }</a></span> : null }
+                { event.frontmatter.organisers ? <span><h4> Organisers: &nbsp;</h4> { event.frontmatter.organisers }</span> : null }
+                { event.frontmatter.contacts ? <span><h4> Contact: &nbsp;</h4> { event.frontmatter.contacts }</span> : null }
             </span>
         </div>
     </div>
@@ -55,9 +55,10 @@ const events = await Astro.glob("../content/events/*.md");
         height: 100%;
         z-index: 8;
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        /* overflow: scroll; */
+        overflow: scroll;
         outline: 2px solid var(--accent-color-2);
         transform: scale(0);
         transition: transform 100ms ease-in-out;
@@ -69,16 +70,16 @@ const events = await Astro.glob("../content/events/*.md");
         text-align: center;
     }
     .event-details img {
-        max-width: 30%;
-        max-height: 90%;
+        max-height: 50%;
+        padding-top: 1rem;
     }
     .event-details div {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        height: 90%;
-        width: 55%;
-        overflow: scroll;
+        height: 50%;
+        width: 90%;
+        /* overflow: scroll; */
     }
     .footer {
         margin-top: 10px;
@@ -94,9 +95,12 @@ const events = await Astro.glob("../content/events/*.md");
         position: relative;
         margin: auto;
         width: 90%;
+        height: 90%;
+        /* height: 100%; */
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 2em;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em 2em;
+        padding-bottom: 1rem;
     }
     .event-card {
         position: relative;
@@ -104,22 +108,39 @@ const events = await Astro.glob("../content/events/*.md");
         padding: 10px;
         justify-content: center;
         align-items: center;
-        height: 10rem;
+        text-align: center;
+        height: 8rem;
         cursor: pointer;
-        font-size: 1.25rem;
+        font-size: 1rem;
         overflow: hidden;
         background-color: var(--accent-color-2);
         color: var(--bg);
+        text-transform: uppercase;
+        outline: 2px solid white;
         transition: 50ms;
     }
 
     @media (min-width: 850px) {
+        .event-details {
+            flex-direction: row;
+        }
+        .event-details img {
+            max-width: 30%;
+            max-height: 80%;
+        }
+        .event-details div {
+            width: 55%;
+            height: 90%;
+        }
         .event-cards {
             height: 80%;
             grid-template-columns: repeat(4, 1fr);
         }
         .event-card {
-            background-color: var(--bg);
+            font-size: 1.25rem;
+            height: 10rem;
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.05);
             color: var(--text-color);
         }
         /* Nice hover effect for event-cards by itayzrihan on codepen */

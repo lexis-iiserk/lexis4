@@ -12,7 +12,8 @@ What happens when your stream of thoughts is not the only one that contributes t
 Do you have what it takes to work with your teammates, understand them and work together to produce a coherent story?
 Twist in the plot: no discussions allowed! Take part in this exciting event and see where your story takes your team.
 Winning or losing aside, this event promises to be an engaging, fun experience for everyone.
-## Details:
+
+### Details:
 
 1. Participation will be in teams of 3.
 2. An initial prompt will be given to the team (no discussion amongst themselves will be allowed).
