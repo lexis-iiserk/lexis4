@@ -53,7 +53,7 @@ const events = await Astro.glob("../content/events/*.md");
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 8;
+        z-index: 5;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -113,10 +113,12 @@ const events = await Astro.glob("../content/events/*.md");
         cursor: pointer;
         font-size: 1rem;
         overflow: hidden;
-        background-color: var(--accent-color-2);
-        color: var(--bg);
+        background-color: rgba(255, 255, 255, 0.05);
+        color: white;
         text-transform: uppercase;
-        outline: 2px solid white;
+        border: 1px solid var(--accent-color);
+        border-radius: 0.5rem;
+        /* outline: 2px solid white; */
         transition: 50ms;
     }
 
@@ -139,7 +141,8 @@ const events = await Astro.glob("../content/events/*.md");
         .event-card {
             font-size: 1.25rem;
             height: 10rem;
-            outline: none;
+            border: none;
+            border-radius: 0;
             background-color: rgba(255, 255, 255, 0.05);
             color: var(--text-color);
         }
@@ -223,7 +226,6 @@ const events = await Astro.glob("../content/events/*.md");
 
 const events = document.querySelectorAll(".event-card");
 for (let i = 0; i < events.length ; ++i) {
-    /* eventDetails[i].style.scale = 0; */
     events[i].addEventListener("click", () => {
         const closeBtn = document.querySelector(`#event-btn-${i}`);
         const eventDets = document.querySelector(`#event-dets-${i}`)
