@@ -1,9 +1,155 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import "../styles/global.css";
 
 const pageTitle = 'Schedule'
+
+const events = await Astro.glob("../content/events/*.md");
+let datesArray = ["Oct 26", "Oct 27"];
+let eventsArray = new Array([], []);
+
+events.forEach((event) => {
+    if (event.frontmatter.date === datesArray[0]) eventsArray[0].push([event.frontmatter.time, event.frontmatter.name, event.frontmatter.venue]);
+    else eventsArray[1].push([event.frontmatter.time, event.frontmatter.name, event.frontmatter.venue]);
+});
+
+const timeToNum = (time:string) => {
+    time = time.trim()
+    let timeArray = time.split(":");
+    let h = parseInt(timeArray[0]);
+    timeArray = timeArray[1].split(" ");
+    let m = parseInt(timeArray[0]);
+    if (timeArray[1] === "PM") h = h + 12;
+    return (60*h) + m;
+};
+
+const compare = (a:string, b:string) => {
+    if (timeToNum(a[0]) <= timeToNum(b[0])) return -1;
+    else return 1;
+};
+
+eventsArray[0].sort(compare);
+eventsArray[1].sort(compare);
+
 ---
 
 <BaseLayout title= { pageTitle }>
-	<h1>{ pageTitle }</h1>
+    <div class="schedule">
+        <div>
+            <span class="date"> <h2> Oct 25 </h2> </span>
+            <ul>
+                <li> 
+                    <span class="time"> 7:00 PM </span>
+                    <span class="name"> Opening Ceremony </span>
+                    <span class="location"> LHC 107 </span>
+                </li>
+                <li> 
+                    <span class="time"> 9:30 PM </span>
+                    <span class="name"> Movie Screening </span>
+                    <span class="location"> MN Saha Auditorium </span>
+                </li>
+            </ul>
+        </div>
+        {datesArray.map((date, i) => (
+        <div>
+            <span class="date"> <h2> { date }</h2> </span>
+            <ul>
+                {eventsArray[i].map((event) => (
+                <li>
+                    <span class="time"> { event[0] }</span>
+                    <span class="name">{ event[1] }</span>
+                    <span class="location">{ event[2] }</span>
+                </li>))}
+            </ul>
+        </div>))}
+    </div>
 </BaseLayout>
+<script>
+</script>
+<style>
+    .schedule {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 100dvh;
+        margin-top: 6rem;
+    }
+    .schedule div {
+        height: 100dvh;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        place-items: center;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+    }
+    .date {
+        font-size: 1.75ch;
+        font-weight: 800;
+    }
+    .time {
+        grid-area: time;
+        font-size: 1.75ch;
+        font-weight: 800;
+    }
+    .name, .location {
+        font-size: 1.5ch;
+        font-weight: 400;
+    }
+    li {
+        display: grid;
+        grid-column-gap: 1rem;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+            "time ."
+            "time .";
+        position: relative;
+    }
+
+    ul::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -1rem;
+        width: 0.125rem;
+        background: var(--accent-color);
+    }
+
+    li::before {
+        content: '';
+        position: absolute;
+        left: -1.25rem;
+        top: 1ch;
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+        background: var(--accent-color);
+    }
+
+    @media (min-width: 850px) {
+        .schedule {
+            height: 100%;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .schedule div {
+            height: 100%;
+            margin-top: 0;
+        }
+        .date {
+            font-size: 2.5ch;
+        }
+        .time {
+            font-size: 2.5ch;
+        }
+        .name, .location {
+            font-size: 1.75ch;
+        }
+    }
+</style>

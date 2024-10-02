@@ -1,7 +1,7 @@
 ---
 name: Impromptu
-time: 10:30 AM
-date: 15th Oct
+time: 11:00 AM
+date: Oct 27
 venue: G06
 organisers: Aditya Dwarkesh
 contacts: +91 8011452963

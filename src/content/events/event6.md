@@ -1,7 +1,7 @@
 ---
 name: Mad Adz
-time: 2:30 PM
-date: 14th Oct
+time: 3:00 PM
+date: Oct 26
 venue: G02
 contacts: +91 8652324567
 organisers: Jane Doe

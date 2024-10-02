@@ -14,7 +14,7 @@ const events = await Astro.glob("../content/events/*.md");
         <img loading="lazy" src={ event.frontmatter.poster }/>
         <div>
             <h1> { event.frontmatter.name } </h1>
-            <h2> { event.frontmatter.time} on { event.frontmatter.date} @ { event.frontmatter.venue } </h2>
+            <h2> { event.frontmatter.time}, { event.frontmatter.date} @ { event.frontmatter.venue } </h2>
             <p set:html={ event.compiledContent() } />
             <span class="footer">
                 { event.frontmatter.link ? <span><h4> Registration Link: &nbsp;</h4> <a href={ event.frontmatter.link } target="_blank">{ event.frontmatter.link }</a></span> : null }

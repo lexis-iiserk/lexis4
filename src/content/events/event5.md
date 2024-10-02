@@ -1,7 +1,7 @@
 ---
 name: Just A Minute
 time: 1:00 PM 
-date: 15th Oct
+date: Oct 27
 venue: G06
 organisers: Satbhav Voleti
 contacts: +91 8972681009

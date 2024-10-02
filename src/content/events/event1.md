@@ -1,8 +1,8 @@
 ---
 name: Compatibility Meter
 time: 9:00 AM
-date: 15th Oct
-venue: G05
+date: Oct 27
+venue: LHC G05
 organisers: John Doe
 contacts: +91 7868945321
 poster: /event1.png

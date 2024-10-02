@@ -2,7 +2,7 @@
 name: Event X
 organisers: John Doe
 time: 4:00 PM
-date: 15th Oct
+date: Oct 27
 venue: G05
 contacts: +91 7784567651
 poster: /event3.png

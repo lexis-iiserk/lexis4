@@ -1,7 +1,7 @@
 ---
 name: Dublin Wager
-time: 10:30 AM
-date: 14th Oct
+time: 11:00 AM
+date: Oct 26
 venue: 107
 organisers: John Doe
 contacts: +91 7868945321
