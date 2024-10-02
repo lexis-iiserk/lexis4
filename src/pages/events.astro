@@ -11,7 +11,7 @@ const events = await Astro.glob("../content/events/*.md");
     {events.map((event, i) => (
     <div class = "event-details" id ={ "event-dets-" + i.toString()}>
         <button id={"event-btn-" + i.toString()}><i class='fa-solid fa-xmark'></i></button>
-        <img loading="lazy" event.frontmatter.poster }/>
+        <img loading="lazy" src={ event.frontmatter.poster }/>
         <div>
             <h1> { event.frontmatter.name } </h1>
             <h2> { event.frontmatter.time} on { event.frontmatter.date} @ { event.frontmatter.venue } </h2>
