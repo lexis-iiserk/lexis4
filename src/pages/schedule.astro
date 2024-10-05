@@ -35,7 +35,7 @@ eventsArray[1].sort(compare);
 
 <BaseLayout title= { pageTitle }>
     <div class="schedule">
-        <div>
+        <div class="day">
             <span class="date"> <h2> Oct 25 </h2> </span>
             <ul>
                 <li> 
@@ -51,7 +51,7 @@ eventsArray[1].sort(compare);
             </ul>
         </div>
         {datesArray.map((date, i) => (
-        <div>
+        <div class="day">
             <span class="date"> <h2> { date }</h2> </span>
             <ul>
                 {eventsArray[i].map((event) => (
@@ -71,14 +71,15 @@ eventsArray[1].sort(compare);
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
-        height: 100dvh;
+        height: 100%;
         margin-top: 6rem;
     }
     .schedule div {
         height: 100dvh;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        place-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     ul {
         list-style: none;
@@ -141,6 +142,9 @@ eventsArray[1].sort(compare);
         .schedule div {
             height: 100%;
             margin-top: 0;
+            display: grid;
+            place-items: center;
+            grid-template-columns: 1fr 2fr;
         }
         .date {
             font-size: 2.5ch;
@@ -150,6 +154,33 @@ eventsArray[1].sort(compare);
         }
         .name, .location {
             font-size: 1.75ch;
+        }
+
+        li:hover::before {
+            animation: 500ms pop forwards;
+        }
+
+        ul::before {
+            width: 1px;
+        }
+
+        ul:hover::before {
+            width: 0.125rem;
+            transition: 300ms ease-in-out;
+        }
+
+        @keyframes pop {
+            0% {
+                scale: 1;
+            }
+
+            50% {
+                scale: 2;
+            }
+
+            100% {
+                scale: 1.5;
+            }
         }
     }
 </style>
