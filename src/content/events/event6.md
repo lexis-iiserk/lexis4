@@ -1,23 +1,21 @@
 ---
-name: Mad Adz
-time: 3:00 PM
-date: Oct 26
-venue: G02
-contacts: +91 8652324567
-organisers: Jane Doe
+name: Writing Lab
+time: 9:00 AM
+date: Oct 27
+venue: LHC G02
+contacts: ty22ms144@iiserkol.ac.in
+organisers: Tarak Yadav
 poster: /event6.jpeg
 ---
-Who said ads can't be crazy?? Is there any restriction to how creative one can be?? In fact the madness of creativity often comes out when we hardly have time to think! Engage with us in this acting cum advertising event of Mad Ads: 'Act, Advertise, Improvise'.
-### Details
-
-1. Teams with 2 to 4 people can participate.
-2. Registrations shall be conducted on spot, on the day of event itself.
-3. Topics shall be provided to the teams on spot.
-4. Topics shall be names of products: eg: “Headphones”. One needs to advertise the product for what it's not generally used for, eg: "Headphones that can hear people's thoughts!"
-5. Enactment starts from: 3:25 pm sharp.
-6. The skit should be at least 30 seconds and at most 3 minutes.
-7. There’s no restriction on how creative or humorous one can be in presenting the ads. However vulgarity can lead to disqualification based on the judge’s discretion.
-
-### Judging
-Credit will be given to creativity, clarity, appropriate use of tagline, script and presentation.
-
+To seek new ways to write, to search for our most creative sources, we need to hold our initial
+impulses back. You may have wanted to write something but do not know where to begin. Af-
+ter all, it seems anything at all can be written down. But, come and embrace the limitations to
+find what indeed emerges from within. Join us in finding springs of inspiration in constraints
+and rules and in becoming rats who construct the labyrinth from which they plan to escape.
+### Rules:
+1. All participants are provided with a piece of paper and pens. Each participant is also
+given one sticky note per round.
+2. Each round involves a constraint or writing prompt, which has to be used, and a final
+piece has to be written on a sticky note. The paper can be used for brainstorming.
+3. Each round lasts 5 minutes, and a total of 10 rounds will be held.
+4. At the end of each round, all the sticky notes will be posted on a poster board.

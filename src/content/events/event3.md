@@ -1,13 +1,13 @@
 ---
 name: Event X
-organisers: John Doe
+organisers: Abhratanu Ray, Diptanuj Sarkar, Sabarno Saha
 time: 4:00 PM
 date: Oct 27
 venue: G05
-contacts: +91 7784567651
-poster: /event3.png
+contacts: ar22ms052@iiserkol.ac.in
+poster: /event3.jpg
 ---
 
-We know as much about this event as you do. In short, nobody knows anything about this. However, what we can promise you is fun! Whether you are an audience member or participant, we offer you the chance to win something without any prerequisites from your side. We will have a healthy dose of traditional mini-games fused with innovative rules to keep them interesting.
-
-By now, you might have realised we haven't really said anything about the event. We prefer an air of mystery–just come and have fun with us!
+An event that promises to be as surprising as its name. The event will be a surprise for the
+participants and the details of the same will be revealed to them on the day of the event. It
+will comprise of an assortment of literary trivia and different word games.

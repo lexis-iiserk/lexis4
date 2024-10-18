@@ -10,7 +10,7 @@ let eventsArray = new Array([], []);
 
 events.forEach((event) => {
     if (event.frontmatter.date === datesArray[0]) eventsArray[0].push([event.frontmatter.time, event.frontmatter.name, event.frontmatter.venue]);
-    else eventsArray[1].push([event.frontmatter.time, event.frontmatter.name, event.frontmatter.venue]);
+    else if (event.frontmatter.date === datesArray[1]) eventsArray[1].push([event.frontmatter.time, event.frontmatter.name, event.frontmatter.venue]);
 });
 
 const timeToNum = (time:string) => {
@@ -41,7 +41,7 @@ eventsArray[1].sort(compare);
                 <li> 
                     <span class="time"> 7:00 PM </span>
                     <span class="name"> Opening Ceremony </span>
-                    <span class="location"> LHC 107 </span>
+                    <span class="location"> MN Saha Auditorium</span>
                 </li>
                 <li> 
                     <span class="time"> 9:30 PM </span>
