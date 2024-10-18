@@ -5,7 +5,7 @@ time: 10:00 PM
 date: Oct 26
 organisers: Niravra Nag 
 contacts: nn22ms072@iiserkol.ac.in
-poster: event15.jpg
+poster: event15.png
 ---
 
 As an institute committed to the pursuit of truth, War of Words, Lexis’ famed debate event,
