@@ -7,24 +7,25 @@ organisers: Sougata Mondal
 contacts: sm22ms013@iiserkol.ac.in
 poster: /event11.webp
 ---
-1. Objective: To write a story (could be narrative, epistolary, conversational or others) in-
-spired by a song, capturing its emotions, message, and overall feel.
-2. Participants get a random song from a list.
-10 / 16
-Lexis 4.0 Manual Lexis Team
-Along with the song, participants receive a set of images or colors that match the song’s mood,
-which they should incorporate into their story. Participants can team up with another person
-to create a story together, combining their ideas.
-3. If lyrics are included : Lyrics should form the basis of their work!
-Genre- Participants are assigned a genre (like fantasy, sci-fi, or romance) and must write
-their story in that style, even if the song is different.
-4. Judging Criteria: How uniquely the participant interprets the song’s elements, including
-mood, lyrics, and style.
-• Innovation: Use of unique narrative techniques or unexpected story elements.
-• Emotional Impact: The story’s ability to evoke emotions similar to those in the song.
-5. Prizes:
-• Special prizes and…
-• Additional awards for “Most Unexpected Twist,” “Best Use of Lyrics,” and “Best Vi-
-sual Storytelling.”
-• There could be a public voting aspect, where people can vote for their favorite sto-
-ries along with the judges’ decisions.
+Song lyrics are more than just words and melodies—they carry powerful meanings that often go unnoticed. They give voice to unspoken emotions, reflect societal truths, and ignite the spark for change. Some songs uplift with hope, while others explore inner struggles or offer profound insights, reminding us that music can inspire, heal, and transform lives. 
+
+Decoded lyrics is a writing competition where participants explore the meaning, imagery, and emotions behind song lyrics. The challenge is to interpret the song's message through a creative piece of writing, inspired by the song!
+
+
+### Rules and conditions: -
+ - Song Selection: You will receive three song options with their lyrics and must select one to write about.
+ - Writing Format: You can write in any style—such as a story, letter, conversation, or fantasy. The choice is yours.
+ - Word Count: There is no maximum word limit, but the piece should be at least 200 words.
+ - No Internet: Using the internet during the event is strictly prohibited. Anyone caught doing so will be disqualified.
+ - Bring Headphones: Participants must bring headphones to listen to the song they are writing about.
+ - Connection to the Song: The written piece should clearly reflect the message, emotions, and meaning of the chosen song. It should also align with the song’s feel, rhythm, and tone.
+
+
+### Exciting prizes for :
+- The overall best work
+- Best Use of Lyrics
+- Best Visual Imagery
+- Most Unexpected Twist
+
+
+#### Mode : English only
