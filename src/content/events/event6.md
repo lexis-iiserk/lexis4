@@ -5,7 +5,7 @@ date: Oct 27
 venue: LHC G02
 contacts: ty22ms144@iiserkol.ac.in
 organisers: Tarak Yadav
-poster: /event6.jpeg
+poster: /event6.jpg
 ---
 To seek new ways to write, to search for our most creative sources, we need to hold our initial
 impulses back. You may have wanted to write something but do not know where to begin. Af-

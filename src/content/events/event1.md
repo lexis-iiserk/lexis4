@@ -5,7 +5,7 @@ date: Oct 26
 venue: LHC G02
 organisers: Oindrila Sarkar
 contacts: os21ms180@iiserkol.ac.in
-poster: /event1.jpeg
+poster: /event1.jpg
 ---
 
 What happens when your stream of thoughts is not the only one that contributes to the development of the story?
