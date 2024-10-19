@@ -5,7 +5,7 @@ date: Oct 26
 venue: LHC 110
 organisers: Sabarno Saha, Debayan Sarkar
 contacts: ss22ms037@iiserkol.ac.in, ds22ms002@iiserkol.ac.in
-poster: /event10.png
+poster: /event10.jpg
 ---
 
 Lexis 4.0 at IISER Kolkata wouldn’t be complete without a science event, and what could be
