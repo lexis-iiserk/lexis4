@@ -5,6 +5,7 @@ date: Oct 26 - Oct 27
 venue: LHC Ground Floor
 organisers: Niravra Nag
 contacts: nn22ms072@iiserkol.ac.in
+poster: /stall2.png
 ---
 
 A crowd favourite of Lexis 3.0, Spin the Wheel is back! In a hangman-inspired game, STW players will have to guess a phrase for a given topic within a fixed amount of time—too many wrong guesses, and game over.
