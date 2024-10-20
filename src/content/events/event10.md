@@ -29,4 +29,4 @@ read that exceeds no more than 15 minutes. If the number of participants is more
 a pre-evaluation will be done based on the scripts submitted. This is a team event with 5
 members at most. ([**Submit Here**](https://forms.gle/zzsv8hRxdGu8pjSKA))
 
-All the events will have individual winners.
+**All the events will have individual winners.**
