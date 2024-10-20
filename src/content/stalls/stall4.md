@@ -2,7 +2,7 @@
 name: The Tarot Tavern
 time: 11AM - 5PM
 date: Oct 26 - Oct 27
-venue: LHC Courtyard
+venue: LHC Ground Floor
 organisers: Shreya Mukherjee
 contacts: sm21ms234@iiserkol.ac.in
 poster: /stall4.jpg

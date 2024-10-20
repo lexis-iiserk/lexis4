@@ -2,7 +2,7 @@
 name: Wordle
 time: 11AM - 5PM
 date: Oct 26 - Oct 27
-venue: LHC Courtyard
+venue: LHC Ground Floor
 organisers: Monishaa G, Amritha Varshini, Swathi Raveendran
 contacts: mg22ms117@iiserkol.ac.in, avm22ms203@iiserkol.ac.in, sr22ms214@iiserkol.ac.in
 poster: /stall1.jpg
