@@ -5,6 +5,7 @@ date: Oct 27
 venue: LHC G06
 organisers: Soumita Ghosh
 contacts: sg22ms197@iiserkol.ac.in
+poster: /event12.jpeg
 ---
 Verse, the on-spot poetry and recitation competition of Lexis 4.0, invites one and all to cel-
 ebrate the magic of poetry. Paint vivid pictures with your verses, and let your imagination
