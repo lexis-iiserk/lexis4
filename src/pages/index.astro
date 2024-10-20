@@ -9,7 +9,10 @@ const pageTitle = 'Home'
         <img src="logo_color.png">
         <h2> The Literary Fest of IISER Kolkata </h2>
         <h3> 25th - 27th October </h3>
-        <a class="gradient-border" href="/events">Learn More</a>
+        <span>
+        <a class="gradient-border" href="/events">Events</a>
+        <a class="gradient-border" href="mailto:lexis@iiserkol.ac.in" target="_blank">Contact Us</a>
+        </span>
     </div>
 </BaseLayout>
 
@@ -24,6 +27,14 @@ const pageTitle = 'Home'
         max-height: 80vh;
     }
 
+    span {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
     a {
         display: inline-block;
         height: 2rem;
@@ -32,6 +43,8 @@ const pageTitle = 'Home'
         font-weight: 400;
         padding: 1rem;
         margin-top: 1rem;
+        outline: 1px solid var(--accent-color);
+        border-radius: 0.5rem;
         /* border: 10px solid var(--accent-color); */
     }
 
@@ -41,7 +54,8 @@ const pageTitle = 'Home'
         }
 
         a {
-            border: none;
+            border-radius: 0;
+            outline: none;
             font-size: 2rem;
             height: 3rem;
             font-weight: 500;
