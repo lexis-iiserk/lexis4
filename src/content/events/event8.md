@@ -5,6 +5,7 @@ date: Oct 26
 venue: LHC G02, 101, 102, 111, 112
 organisers: Sandra Surendran
 contacts: ss22ms073@iiserkol.ac.in
+poster: /event8.png
 ---
 
 This is a short skit event. Teams have to prepare a short parody advertisement of a product.
