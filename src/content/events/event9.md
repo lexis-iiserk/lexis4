@@ -6,6 +6,7 @@ venue: LHC G06
 organisers: Sarfraj Md Juned Fency
 contacts: smjf21ip029@iiserkol.ac.in
 poster: /event9.jpg
+link: https://forms.gle/GfX7sAuYFkH7jVNx8
 ---
 
 As an institute committed to the pursuit of truth, War of Words, Lexis’ famed debate event,
