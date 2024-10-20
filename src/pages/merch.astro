@@ -1,9 +1,96 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import "../styles/global.css";
 
 const pageTitle = 'Merch'
 ---
 
 <BaseLayout title= { pageTitle }>
-	<h1>Announcing Soon !!</h1>
+    <div class="main-content">
+        <div class="bookmarks">
+            <h1> Bookmarks </h1>
+            <div>
+            <span><img src="/bookmark-1.png"></img></span>
+            <span><img src="/bookmark-2.png"></img></span>
+            <span><img src="/bookmark-3.png"></img></span>
+            <span><img src="/bookmark-4.png"></img></span>
+            </div>
+        </div>
+        <div class="mugs">
+            <h1> Mugs </h1>
+            <div>
+            <span><img src="/mug-1.png"></img></span>
+            <span><img src="/mug-2.png"></img></span>
+            </div>
+        </div>
+        <div class="mugs badge">
+            <h1> Badges and Magnets </h1>
+            <div>
+                <span><img src="/badge.png"></img></span>
+            </div>
+        </div>
+    </div>
 </BaseLayout>
+
+<style>
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+        background: var(--accent-color-2);
+        color: var(--accent-color);
+    }
+    .mugs, .bookmarks {
+        width: 100%;
+        max-width: 100ch;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+    }
+    .bookmarks div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    img {
+        max-width: 100%;
+    }
+    span {
+        padding: 0.5rem;
+        border: 0.125rem solid var(--accent-color-3);
+        border-radius: 1rem;
+    }
+    .mugs div {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .mugs span {
+        max-width: 100%;
+    }
+    .badge img {
+        outline: 2px solid white;
+        border-radius: 50%;
+    }
+
+    @media (min-width: 850px) {
+        span {
+            border: 0.125rem solid black;
+            border-radius: 1rem;
+            transition: 100ms ease-in-out;
+        }
+        span:hover {
+            border: 0.125rem solid var(--accent-color);
+            border-radius: 1rem;
+        }
+    }
+</style>

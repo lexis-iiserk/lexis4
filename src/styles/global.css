@@ -33,7 +33,7 @@ main {
     justify-content: center;
     color: var(--text-color);
     width: 100vw;
-    height: 85%;
+    min-height: 85vh;
 }
 
 @media (max-width: 850px) {
