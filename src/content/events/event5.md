@@ -11,8 +11,9 @@ Welcome to Just a Minute! A game that’s all about quick thinking and smooth
 talking, where all you have to do is speak non-stop for 60 seconds on a given
 topic without hesitation, repetition, or deviation. It's as fun as it sounds, and a
 great way to test your wits!
-**Note:** Also, in case there are more than 16 willing to play, we will have prelims. It will be a short written round.
-### Rules of the game:
+## Prelims:
+In case there are more than 16 willing to play, we will have prelims. It will be a short written round.
+### Rules of the game (Finals):
 1. The host shall give the players a random topic. Immediately after the
 announcement, the 60 seconds timer is started.
 2. The player shall keep on speaking on the topic until one of his opponents
