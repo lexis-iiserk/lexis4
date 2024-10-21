@@ -14,7 +14,7 @@ const events = await Astro.glob("../content/stalls/*.md");
         <img loading="lazy" src={ event.frontmatter.poster }/>
         <div>
             <h1> { event.frontmatter.name } </h1>
-            <h2> { event.frontmatter.time}, { event.frontmatter.date} @ { event.frontmatter.venue } </h2>
+            <!-- <h2> { event.frontmatter.time}, { event.frontmatter.date} @ { event.frontmatter.venue } </h2> -->
             <p set:html={ event.compiledContent() } />
             <span class="footer">
                 { event.frontmatter.link ? <span><h4> Registration Link: &nbsp;</h4> <a href={ event.frontmatter.link } target="_blank">{ event.frontmatter.link }</a></span> : null }
@@ -81,6 +81,7 @@ const events = await Astro.glob("../content/stalls/*.md");
         justify-content: flex-start;
         height: 50%;
         width: 90%;
+        gap: 1em;
         /* overflow: scroll; */
     }
     .footer {
