@@ -21,3 +21,5 @@ A crowd favourite of Lexis 3.0, Spin the Wheel is back! In a hangman-inspired ga
 ### Prizes:
 - **Lexis merchandise:** Bookmarks, badges, magnets, keychains.
 - **Bumper prize:** Mugs
+
+[**Click here to see the available designs**](/merch)
