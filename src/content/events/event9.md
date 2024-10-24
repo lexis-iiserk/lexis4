@@ -1,6 +1,6 @@
 ---
 name: War of Words
-time: 5:00 PM
+time: 3:00 PM
 date: Oct 26
 venue: LHC G06
 organisers: Sarfraj Md Juned Fency
