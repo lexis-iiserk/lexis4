@@ -2,7 +2,7 @@
 name: Oculus
 time: 5:00 PM
 date: Oct 26
-venue: LHC G02
+venue: LHC 110
 organisers: Arya Vasudev Mhatre
 contacts: avm22ms205@iiserkol.ac.in
 poster: /event7.png
