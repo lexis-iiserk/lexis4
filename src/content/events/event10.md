@@ -2,7 +2,7 @@
 name: Sci-Fi
 time: 3:00 PM
 date: Oct 26
-venue: LHC G02
+venue: LHC G06
 organisers: Sabarno Saha, Debayan Sarkar
 contacts: ss22ms037@iiserkol.ac.in, ds22ms002@iiserkol.ac.in
 poster: /event10.jpg
