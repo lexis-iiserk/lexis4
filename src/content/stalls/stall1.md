@@ -20,7 +20,6 @@ gray. The less number of tries you get the word in, the better it is.
 Rs. 15 for 3 tries
 
 ### Rules: 
-There’ll be a leaderboard for each session (one hour long) the top three can claim their
-reward after the session ends. The judging will be based on the number of guesses. The time
-taken is considered if they have the same number of guesses. One can play multiple times.
-There is also a Grand Prize for the best gameplay by the end of the event.
+The leaderboard is based on time. But there's a twist, every wrong guess gets 30 seconds added to the time. The top of the leaderboard at the end of every hour gets a mug. 
+
+**Hints are available:** If you want to know a letter, you can do so for a cost of 30 seconds on the clock. If you want to know the position of a letter you have already got, that would cost you 15 seconds.
