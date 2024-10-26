@@ -1,7 +1,7 @@
 ---
 name: Board Games Night
 venue: LH4
-time: 10:00 PM
+time: 9:30 PM
 date: Oct 26
 organisers: Niravra Nag 
 contacts: nn22ms072@iiserkol.ac.in
