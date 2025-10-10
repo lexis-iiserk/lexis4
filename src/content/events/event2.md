@@ -3,7 +3,7 @@ name: Dublin Wager
 time: 10:30 AM
 date: Oct 27
 venue: 107
-organisers: Ruturaj Kulkarni, Devang Mujumdar, Srinivasa Ramanujam
+organisers: Rishabh Chaudhuri Mustafijur Rahaman
 contacts: quiz.activity@iiserkol.ac.in
 link: https://forms.gle/CiXJ8DUFg8sESei38
 poster: /event2.png

@@ -1,24 +1,21 @@
 ---
-name: Compatibility Meter
+name: Treasure Hunt 
 time: 9:00 AM
 date: Oct 26
-venue: LHC G02
-organisers: Oindrila Sarkar
-contacts: os21ms180@iiserkol.ac.in
+venue: LHC
+organisers: Amirtha Varshini, Albin P Ajesh
+contacts: avm22ms203@iiserkol.ac.in, apa23ms255@iiserkol.ac.in
+link: https://docs.google.com/forms/d/e/1FAIpQLSe9h0rj31NJ7ZcaQjAzXRqujXd5xwOpmNQby4TUPwsKON6pDg/viewform?usp=header
 poster: /event1.jpg
 ---
 
-What happens when your stream of thoughts is not the only one that contributes to the development of the story?
-Do you have what it takes to work with your teammates, understand them and work together to produce a coherent story?
-Twist in the plot: no discussions allowed! Take part in this exciting event and see where your story takes your team.
-Winning or losing aside, this event promises to be an engaging, fun experience for everyone.
+Participants follow a series of clues, each leading to the next, to ultimately crack a final puzzle. The first team to do so wins the treasure hunt. 
+
 
 ### Details:
 
-1. Participation will be in teams of 3.
-2. An initial prompt will be given to the team (no discussion amongst themselves will be allowed).
-3. The first person will start writing and when a given time slot ends, they hand over the sheet to the next person of the team.
-4. The next person must read the content written by the previous team-member/s and continue the story until they pass it on to participant 3 after their time slot ends.
-5. This sequence continues with the introduction of certain new prompts intermediately.
-6. The participants will be informed when the last round begins and they must end their stories accordingly.
-7. The stories will be judged based on their coherence, language, themes and relevance to the prompts.
+1. Location: The clues will be placed all over the campus. 
+2. The first clue will be shared with all participants. 
+3. Duration: The event will end once a winner is declared.
+4. Team size : two to three members.
+5. Clues consist of riddles, puzzles, maps, codes, images and objects.
