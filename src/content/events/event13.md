@@ -1,7 +1,7 @@
 ---
 name: Open Mic
-time: 7:00 PM
-date: Oct 27
+time: 6:00 PM
+date: Oct 19
 venue: LHC G06
 organisers: Shaona Kundu
 contacts: sg22ms197@iiserkol.ac.in

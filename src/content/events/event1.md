@@ -1,7 +1,7 @@
 ---
 name: Treasure Hunt 
-time: 9:00 AM
-date: Oct 26
+time: 11:00 AM
+date: Oct 19
 venue: LHC
 organisers: Amirtha Varshini, Albin P Ajesh
 contacts: avm22ms203@iiserkol.ac.in, apa23ms255@iiserkol.ac.in

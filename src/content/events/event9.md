@@ -1,24 +1,18 @@
 ---
 name: War of Words
-time: 3:00 PM
-date: Oct 26
-venue: LHC G06
-organisers: Sarfraj Md Juned Fency
-contacts: smjf21ip029@iiserkol.ac.in
+time: 5:00 PM
+date: Oct 18
+venue: LHC G05
+organisers: Abhinav Prabhu Ligadi, Basudha Mukherjee
+contacts: apl23ms260@iiserkol.ac.in, bm23ms135@iiserkol.ac.in
 poster: /event9.jpg
-link: https://forms.gle/GfX7sAuYFkH7jVNx8
 ---
 
-As an institute committed to the pursuit of truth, War of Words, Lexis’ famed debate event,
-tests the mettle of ideas and the debaters defending them. With a plethora of spicy topics to
-choose from, this event will surely have you on the edge of your seats.
-### Event Outline:
-1. The debate will take place in either a Lincoln-Douglas or a Cross-Examination format
-(depending on participant turnout).
-2. For the topics, we plan to send a mail to all members of the IISER-K community, seeking
-to find the topics they wish to see debated. To this list, several topics will be appended
-by the EO. The final list will then be decided by either public vote or by Lexis Organizers.
-The final list of topics will then be sent to all and participants will be able to choose
-which topics they want to debate over.
-3. The event will be judged both by selected judges (IISER-K profs) and the audience (finer
-details on this will be provided later).
+Step into the arena where arguments clash and ideas ignite — War of Words is back!
+This is your chance to test your wit, logic, and oratory against some of the sharpest minds around. Whether you’re a fiery debater or a keen listener who loves a good intellectual duel, this event promises a battle of perspectives, persuasion, and passion.
+
+- Expect heated discussions, clever rebuttals, and powerful speeches as participants go head-to-head to claim the title of the ultimate word warrior.
+
+- Participants will get 10 minutes after the declaration of the debate topic and then the debate will start. If there are very few participants (≤6) we will follow the Lincoln-Douglas Format. If there are more than 8 participants, we will follow the Cross Examination Style of Debate with teams of two each. 
+
+Come for the arguments, stay for the thrill — because in War of Words, every sentence counts and every pause can change the game.

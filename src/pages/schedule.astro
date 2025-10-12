@@ -5,7 +5,7 @@ import "../styles/global.css";
 const pageTitle = 'Schedule'
 
 const events = await Astro.glob("../content/events/*.md");
-let datesArray = ["Oct 26", "Oct 27"];
+let datesArray = ["Oct 18", "Oct 19"];
 let eventsArray = new Array([], []);
 
 events.forEach((event) => {
@@ -36,10 +36,10 @@ eventsArray[1].sort(compare);
 <BaseLayout title= { pageTitle }>
     <div class="schedule">
         <div class="day">
-            <span class="date"> <h2> Oct 25 </h2> </span>
+            <span class="date"> <h2> Oct 17 </h2> </span>
             <ul>
                 <li> 
-                    <span class="time"> 7:00 PM </span>
+                    <span class="time"> 8:30 PM </span>
                     <span class="name"> Opening Ceremony </span>
                     <span class="location"> MN Saha Auditorium</span>
                 </li>

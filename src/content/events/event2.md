@@ -2,10 +2,10 @@
 name: Dublin Wager
 time: 10:30 AM
 date: Oct 27
-venue: 107
+venue: LHC 107
 organisers: Rishabh Chaudhuri Mustafijur Rahaman
 contacts: quiz.activity@iiserkol.ac.in
-link: https://forms.gle/CiXJ8DUFg8sESei38
+link: https://forms.gle/nZEH4GysDhjmoPnB9
 poster: /event2.png
 ---
 

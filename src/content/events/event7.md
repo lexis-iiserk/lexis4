@@ -1,22 +1,13 @@
 ---
-name: Oculus
+name: Opus
 time: 5:00 PM
-date: Oct 26
-venue: LHC 110
-organisers: Arya Vasudev Mhatre
-contacts: avm22ms205@iiserkol.ac.in
+date: Oct 15
+venue: LHC 
+organisers: Ruksana T
+contacts: avm2rt22ms223@iiserkol.ac.in
 poster: /event7.png
 ---
 
-Everyone imagines the protagonist differently. How do you imagine the friends they make?
-The obstacles they face? How you imagine their story? Share it with us! Illustrate a short story,
-any moment that you believe can be improved with art. Prizes await those who capture their
-imaginations!
+Opus is a chance for artists and literature enthusiasts to put their skills to the test. How well can you decipher a book and use your creativity to design a cover that captures its essence?
 
-How it goes:
-- Individual participation.
-- Art supplies will be provided.
-- Participants get 3 hours to make their illustration (they can arrive at venue at any time but submission deadline is fixed).
-- Participants will receive an original short story (same for all).
-- Each participant must make one illustration relevant to the story.
-- Online references are allowed.
+In  Opus, we find out how effectively your book cover can catch a reader’s eye and draw them in. There are stories waiting for your illustrations!
