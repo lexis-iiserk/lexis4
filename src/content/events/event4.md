@@ -5,7 +5,7 @@ date: Oct 19
 venue: LHC G06
 organisers: Madhura Narayan Joshi
 contacts: ac22ms044@iiserkol.ac.in
-poster: /event4.jpeg
+poster: /Posters/5. Impromptu.png
 ---
 # Impromptu - A Lexis Classic
 Get ready for a whirlwind of wit, words, and spontaneity! Impromptu is all about thinking on your feet and speaking from your heart — instantly. Contestants will be tested on their fluency, creativity, confidence, coherence, and ability to connect ideas in real time.

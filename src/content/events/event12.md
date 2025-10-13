@@ -5,7 +5,7 @@ date: Oct 19
 venue: LHC G06
 organisers: Biswajit Dutta
 contacts: bd24mp023@iiserkol.ac.in
-poster: /event12.jpeg
+poster: /Posters/2. Verse.png
 ---
 # Verse: The Poetry & Recitation Competition 
 "Unleash your inner poet" <br/>

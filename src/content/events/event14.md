@@ -5,7 +5,7 @@ time: 9:00 AM
 date: Oct 18-19
 organisers: Ananya Das
 contacts: ad24ms042@iiserkol.ac.in
-poster: /event14.jpg
+poster: /Posters/11. Reading Room.png
 ---
 
 The Reading Room Returns!<br/>

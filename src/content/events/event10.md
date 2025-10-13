@@ -2,10 +2,10 @@
 name: Sci-Fi
 time: 9:00 PM
 date: Oct 18
-venue: Online
+venue: Online (submuission deadline)
 organisers: Sanigh P K, Jyothish V P
 contacts: spk22ms061@iiserkol.ac.in, jv22ms116@iiserkol.ac.in
-poster: /event10.jpg
+poster: /Posters/3. Sci-fi.png
 ---
 
 **Lexis 5.0** at IISER Kolkata wouldn’t be complete without a celebration of science—and what could be more perfect than a science fiction event? Introducing Sci-Fi, the science fiction event of IISER Kolkata. This immersive online experience invites participants to unleash their imagination and creativity within the boundless world of sci-fi. From crafting captivating stories and inventive screenplays to building entirely new worlds, Sci-Fi is your portal to the unexplored frontiers of creativity.

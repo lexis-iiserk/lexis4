@@ -5,7 +5,7 @@ date: Oct 18
 venue: LHC G02
 contacts: aa23ms228@iiserkol.ac.in, nn22ms072@iiserkol.ac.in
 organisers: A Ananthakrishnan, Niravra Nag
-poster: /event6.jpg
+poster: /Posters/15. Writing Laboratory.png
 ---
 To seek new ways to write, to search for our most creative sources, we need to hold our initial impulses back. You may have wanted to write something but do not know where to begin. After all, it seems anything at all can be written down. But, come and embrace the limitations to find what indeed emerges from within. Join us in finding springs of inspiration in constraints and rules and in becoming rats who construct the labyrinth from which they plan to escape.
 

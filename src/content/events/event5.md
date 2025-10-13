@@ -5,7 +5,7 @@ date: Oct 19
 venue: LHC 
 organisers: Adrika Chaudhuri
 contacts: mra21ms144@iiserkol.ac.in
-poster: /event5.jpg
+poster: /Posters/6. JAM.png
 ---
 Welcome to Just a Minute! A game that’s all about quick thinking and smooth talking, where all you have to do is speak non-stop for 60 seconds on a given topic without hesitation, repetition, or deviation. It's as fun as it sounds, and a great way to test your wits!
 
