@@ -22,3 +22,10 @@ Combine two distinct sci-fi subgenres to create a vivid, first-person snapshot o
 Step into the shoes of a sci-fi showrunner! Participants must pitch the pilot episode of an original science fiction TV series to the “Institute of Science Fiction and Research.” Entries will be judged based on a live table read lasting up to 15 minutes. If more than eight teams register, a pre-evaluation will be conducted based on submitted scripts.
 - Team size: Up to 5 members
 
+# Submission details:
+
+**Submit your entries for Story telling challenge:** https://docs.google.com/forms/d/e/1FAIpQLSe9jzYae9oKMLUMrdgOG8KDqq9xbTp19CqYFrB4YP97B5MDSQ/viewform?usp=dialog
+
+**Submit your entries for Worldbuilding Fiction:** https://docs.google.com/forms/d/e/1FAIpQLSfjPqzCOYjJZg7l8FC57_F76gRF6sIvX2ghyfvf_arQHCnC9A/viewform?usp=dialog
+
+**Submit your entries for Screenplay pitch:** https://docs.google.com/forms/d/e/1FAIpQLSe4PA47GCh5OArANVeaUld9ZuFlqzgAL79Y2azIzeF4OE6okg/viewform?usp=dialog
