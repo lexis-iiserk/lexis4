@@ -5,10 +5,9 @@ date: Oct 26 - Oct 27
 venue: LHC Ground Floor
 organisers: Anuprovo Debnath, Manish Behera
 contacts: ad23ms110@iiserkol.ac.in, mb23ms121@iiserkol.ac.in
-poster: /stall2.png
 ---
 
-A crowd favourite of Lexis 3.0, Spin the Wheel is back! In a hangman-inspired game, STW players will have to guess a phrase for a given topic within a fixed amount of time—too many wrong guesses, and game over.
+A crowd favourite of Lexis 4.0, Spin the Wheel is back! In a hangman-inspired game, STW players will have to guess a phrase for a given topic within a fixed amount of time—too many wrong guesses, and game over.
 
 ### Rules:
 + Players will first spin the wheel to land on a category to guess. The categories are authors and poets, books and poems, idioms and phrases. (others can also be added)
@@ -19,7 +18,6 @@ A crowd favourite of Lexis 3.0, Spin the Wheel is back! In a hangman-inspired ga
 + If players want to play again, they will have to pay an additional 10 rupees each time. First round free, second round 10 rupees, 3rd round 20 rupees and so on.
 
 ### Prizes:
-- **Lexis merchandise:** Bookmarks, badges, magnets, keychains.
-- **Bumper prize:** Mugs
+- Surprise gifts and goodies from the Lexis Team!
 
 [**Click here to see the available designs**](/merch)
