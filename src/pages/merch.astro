@@ -7,32 +7,53 @@ const pageTitle = 'Merch'
 
 <BaseLayout title= { pageTitle }>
     <div class="main-content">
-        <div class="bookmarks">
-            <h1> Bookmarks </h1>
-            <div>
-            <span><img src="/bookmark-2.png" loading="lazy"></img></span>
-            <span><img src="/bookmark-3.png" loading="lazy"></img></span>
-            <span><img src="/bookmark-4.png" loading="lazy"></img></span>
-            <span><img src="/bookmark-1.png" loading="lazy"></img></span>
+        <!-- T-Shirts Section -->
+        <div class="merch-section">
+            <h1>T-Shirts</h1>
+            <div class="tshirts-grid">
+                <span><img src="/merch/t shirts/1.png" alt="T-Shirt Design 1" loading="lazy"></span>
+                <span><img src="/merch/t shirts/2.png" alt="T-Shirt Design 2" loading="lazy"></span>
+                <span><img src="/merch/t shirts/3.png" alt="T-Shirt Design 3" loading="lazy"></span>
+                <span><img src="/merch/t shirts/4.png" alt="T-Shirt Design 4" loading="lazy"></span>
             </div>
         </div>
-        <div class="mugs">
-            <h1> Mugs </h1>
-            <div>
-            <span><img src="/mug-1.png" loading="lazy"></img></span>
-            <span><img src="/mug-2.png" loading="lazy"></img></span>
+
+        <!-- Bookmarks Section -->
+        <div class="merch-section">
+            <h1>Bookmarks</h1>
+            <div class="bookmarks-grid">
+                <span><img src="/merch/bookmarks/1 front.png" alt="Bookmark 1" loading="lazy"></span>
+                <span><img src="/merch/bookmarks/2 front.png" alt="Bookmark 2" loading="lazy"></span>
+                <span><img src="/merch/bookmarks/3 front.png" alt="Bookmark 3" loading="lazy"></span>
+                <span><img src="/merch/bookmarks/4 front.png" alt="Bookmark 4" loading="lazy"></span>
+                <span><img src="/merch/bookmarks/5 front.png" alt="Bookmark 5" loading="lazy"></span>
             </div>
         </div>
-        <div class="mugs badge">
-            <h1> Badges and Magnets </h1>
-            <div>
-                <span><img src="/badge.png" loading="lazy"></img></span>
+
+        <!-- Keychains Section -->
+        <div class="merch-section">
+            <h1>Keychains</h1>
+            <div class="keychains-grid">
+                <span><img src="/merch/keychains/books and magic front.png" alt="Books and Magic Keychain" loading="lazy"></span>
+                <span><img src="/merch/keychains/fully booked.png" alt="Fully Booked Keychain" loading="lazy"></span>
+                <span><img src="/merch/keychains/poem.png" alt="Poem Keychain" loading="lazy"></span>
+                <span><img src="/merch/keychains/wilde.png" alt="Wilde Keychain" loading="lazy"></span>
             </div>
         </div>
-        <div class="mugs badge">
-            <h1> Keychain </h1>
-            <div>
-                <span><img src="/keychain.png" loading="lazy"></img></span>
+
+        <!-- Badges and Magnets Section -->
+        <div class="merch-section">
+            <h1>Badges and Magnets</h1>
+            <div class="badges-grid">
+                <span class="badge-item"><img src="/merch/magnets and badges/fully booked.png" alt="Fully Booked Badge" loading="lazy"></span>
+                <span class="badge-item"><img src="/merch/magnets and badges/gray cells.png" alt="Gray Cells Badge" loading="lazy"></span>
+                <span class="badge-item"><img src="/merch/magnets and badges/lit.png" alt="Lit Badge" loading="lazy"></span>
+                <span class="badge-item"><img src="/merch/magnets and badges/logo.png" alt="Logo Badge" loading="lazy"></span>
+                <span class="badge-item"><img src="/merch/magnets and badges/logo 2.png" alt="Logo 2 Badge" loading="lazy"></span>
+                <span class="badge-item"><img src="/merch/magnets and badges/Magnet _ books and magic.png" alt="Books and Magic Magnet" loading="lazy"></span>
+                <span class="badge-item"><img src="/merch/magnets and badges/poem.png" alt="Poem Badge" loading="lazy"></span>
+                <span class="badge-item"><img src="/merch/magnets and badges/to be or not to be.png" alt="To Be or Not To Be Badge" loading="lazy"></span>
+                <span class="badge-item"><img src="/merch/magnets and badges/wilde.png" alt="Wilde Badge" loading="lazy"></span>
             </div>
         </div>
     </div>
@@ -42,61 +63,131 @@ const pageTitle = 'Merch'
     .main-content {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 2rem;
         justify-items: center;
         align-items: center;
         width: 100%;
+        padding: 1rem;
     }
+
+    .merch-section {
+        width: 100%;
+        max-width: 120ch;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-items: center;
+        align-items: center;
+    }
+
     h1 {
         width: 100%;
         text-align: center;
         background: var(--accent-color-2);
         color: var(--accent-color);
+        padding: 0.75rem;
+        margin: 0;
+        font-size: 1.75rem;
+        border-radius: 0.5rem;
     }
-    .mugs, .bookmarks {
-        width: 100%;
-        max-width: 100ch;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        justify-items: center;
-        align-items: center;
-    }
-    .bookmarks div {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.5rem;
-    }
+
     img {
         max-width: 100%;
+        height: auto;
+        display: block;
     }
+
     span {
         padding: 0.5rem;
         border: 0.125rem solid var(--accent-color-3);
         border-radius: 1rem;
+        display: block;
+        background: white;
+        transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
     }
-    .mugs div {
+
+    /* Bookmarks Grid */
+    .bookmarks-grid {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 1rem;
+        width: 100%;
     }
-    .mugs span {
-        max-width: 100%;
+
+    /* Keychains Grid */
+    .keychains-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        width: 100%;
     }
-    .badge img {
-        outline: 2px solid white;
+
+    /* Badges and Magnets Grid */
+    .badges-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .badge-item img {
         border-radius: 50%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    /* T-Shirts Grid */
+    .tshirts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+        width: 100%;
+    }
+    
+    .tshirts-grid span {
+        padding: 1rem;
+    }
+
+    @media (min-width: 768px) {
+        .bookmarks-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .keychains-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .badges-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .tshirts-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .bookmarks-grid {
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        .keychains-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .badges-grid {
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        .tshirts-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 
     @media (min-width: 850px) {
-        span {
-            border: 0.125rem solid black;
-            border-radius: 1rem;
-            transition: 100ms ease-in-out;
-        }
         span:hover {
-            border: 0.125rem solid var(--accent-color);
-            border-radius: 1rem;
+            border-color: var(--accent-color);
+            transform: scale(1.05);
         }
     }
 </style>
