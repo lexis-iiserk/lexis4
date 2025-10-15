@@ -5,6 +5,7 @@ date: Oct 18
 venue: LHC G05
 organisers: Abhinav Prabhu Ligadi, Basudha Mukherjee
 contacts: apl23ms260@iiserkol.ac.in, bm23ms135@iiserkol.ac.in
+link: https://forms.gle/aThoRu53AvuFJW418
 poster: /Posters/4. War of Words.png
 ---
 

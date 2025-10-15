@@ -4,7 +4,7 @@ time: 5:00 PM
 date: Oct 18
 venue: LHC 
 organisers: Ruksana T
-contacts: avm2rt22ms223@iiserkol.ac.in
+contacts: rt22ms223@iiserkol.ac.in
 poster: /Posters/1. opus.png
 ---
 

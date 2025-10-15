@@ -2,7 +2,7 @@
 name: Sci-Fi
 time: 9:00 PM
 date: Oct 18
-venue: Online (submuission deadline)
+venue: Online (submission deadline)
 organisers: Sanigh P K, Jyothish V P
 contacts: spk22ms061@iiserkol.ac.in, jv22ms116@iiserkol.ac.in
 poster: /Posters/3. Sci-fi.png

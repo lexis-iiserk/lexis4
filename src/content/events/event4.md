@@ -4,7 +4,7 @@ time: 10:30 AM
 date: Oct 19
 venue: LHC G06
 organisers: Madhura Narayan Joshi
-contacts: ac22ms044@iiserkol.ac.in
+contacts: mst23ms003@iiserkol.ac.in
 poster: /Posters/5. Impromptu.png
 ---
 # Impromptu - A Lexis Classic
