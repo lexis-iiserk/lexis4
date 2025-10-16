@@ -11,6 +11,7 @@ poster: /Posters/8. Treasure Hunt.png
 
 Participants follow a series of clues, each leading to the next, to ultimately crack a final puzzle. The first team to do so wins the treasure hunt. 
 
+**Students from other colleges(not belonging to IISER Kolkata) are not allowed to participate**
 
 ### Details:
 
