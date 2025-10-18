@@ -1,7 +1,6 @@
 ---
 name: Spin The Wheel
 time: 11AM - 5PM
-date: Oct 26 - Oct 27
 venue: LHC Ground Floor
 organisers: Anuprovo Debnath, Manish Behera
 contacts: ad23ms110@iiserkol.ac.in, mb23ms121@iiserkol.ac.in
